@@ -16,6 +16,8 @@ set :linked_dirs, %w[log public/system public/assets node_modules]
 
 set :yarn_flags, "--silent"
 
+set :rails_env, :production
+
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
 
